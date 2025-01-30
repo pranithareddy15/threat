@@ -1,0 +1,16 @@
+<a href="https://google.com"
+   onclick="showPopup()"
+   rel="nofollow"
+   target="_blank" >
+     Click here 
+</a>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript">
+    function showPopup() {
+        swal({
+            text: "YOU ARE HACKED",
+        });
+    }
+
+</script>
+
